@@ -1,0 +1,178 @@
+
+div.nav{
+    position: fixed;
+
+    left: 0;
+    right: 0;
+}
+div.nav div.links{
+
+    display: flex;
+    background-color: antiquewhite;
+
+   
+
+}
+div.nav div.links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 75%;
+
+    justify-content: center;
+
+
+}
+div.nav div.links ul :hover{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+div.home{
+    height: 100vh;
+
+}
+
+
+button{
+    border-radius: 35px;
+
+    
+}
+div.home div.home-content h1{
+
+    font-style: oblique;
+
+}
+div.home div.home-content p{
+
+    font-style:oblique;
+}
+div.home div.home-img img{
+    height: 100%;
+}
+div.home{
+    display: flex;
+    align-items: center;
+}
+div.home div.home-content div.links{
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+}
+div.home div.home-content div.links div.link1 button{
+background-color: red;
+color: white;
+padding: 20px;
+}
+div.home div.home-content div.links div.link2 button{
+    border: none;
+    padding: 20px;
+}
+div.home div.home-content div.links div.link1 button a {
+
+    text-decoration: none;
+}
+
+div.home div.home-content div.links div.link2 a{
+
+    text-decoration: none;
+}
+
+ div.chefs div.chefs-sentences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ div.chefs div.chefs-content{
+    display: flex;
+    background-color: brown;
+    text-align: center;
+   justify-content: space-around;
+ }
+ div.chefs div.chefs-content div.chef1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+ } 
+
+ div.chefs div.chefs-content div.chef2{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ div.chefs div.chefs-content div.chef3{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ 
+ .img-width{
+    width: 100%;
+
+ }
+ div.chefs div.chefs-content div.chef1:hover{
+
+    transform: scale(1.144);
+
+ }
+ div.chefs div.chefs-content div.chef2:hover{
+
+    transform: scale(1.144);
+
+
+}
+div.chefs div.chefs-content div.chef3:hover{
+
+    transform: scale(1.144);
+
+}
+ /* Gallery */
+
+ div.gallery div.headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ div.gallery div.pics{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ div.gallery div.pics img{
+    width: 400px;
+ }
+ /* contacts */
+ div.contacts div.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ div.contacts div.content1{
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+ }
+ div.contacts div.content2{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+
+ }
+
+.container1{
+    display: flex;
+    width: 50%;
+}
+
+.icons{
+    border-radius: 100px;
+    width: 100px;
+}
+
+
