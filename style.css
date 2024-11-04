@@ -16,7 +16,6 @@ div.nav div.links{
 div.nav div.links ul{
     display: flex;
     list-style: none;
-    gap: 20px;
     width: 75%;
 
     justify-content: center;
